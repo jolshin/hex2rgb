@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  -webkit-transition: background-color 250ms linear;
+  -ms-transition: background-color 250ms linear;
+  transition: background-color 250ms linear;
+}
+
+.form-hex-input {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  background-color: rgba(225, 225, 225, 0.7);
+  padding: 10px;
+  text-align: center;
+  border: none;
+  height: 25px;
+  border-radius: 10px 10px 3px 3px;
+  margin-bottom: 3px;
+}
+
+.form-rgb-output {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  background-color: rgba(159, 159, 159, 0.7);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  text-align: center;
+  height: 25px;
+  border-radius: 3px 3px 10px 10px;
+}
